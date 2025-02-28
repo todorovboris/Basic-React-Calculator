@@ -19,8 +19,8 @@ function App() {
     function ccButtonClickHandler() {
         if (isOn) {
             setCount('0');
+            setIsNewNumber(true);
             setIsDotUsed(false);
-            setSum(0);
         }
     }
 
