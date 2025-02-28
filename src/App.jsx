@@ -47,6 +47,8 @@ function App() {
                     return;
             }
 
+            result = Number.isFinite(result) ? parseFloat(result.toFixed(6)) : result;
+
             setSum(result);
             setCount(result.toString());
             setOperator('');
