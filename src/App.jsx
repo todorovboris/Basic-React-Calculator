@@ -96,6 +96,10 @@ function App() {
                         newSum = currentNumber;
                 }
 
+                newSum = Number.isFinite(newSum) ? parseFloat(newSum.toFixed(6)) : newSum;
+
+                setCount(newSum.toString());
+
                 return newSum;
             });
 
