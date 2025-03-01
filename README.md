@@ -24,7 +24,7 @@ A simple calculator built with React, allowing users to perform basic arithmetic
 
 4. Start the development server:  
    ```bash
-   npm start
+   npm run dev
 
 OR use the following link:
 ```bash
